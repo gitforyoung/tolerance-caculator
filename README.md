@@ -15,18 +15,18 @@
 - Worst Case:
   - $n$은 부품 수, $T_{i}$은 각각의 공차일 때 모두 더함.
 
-  $$ T_{sum} = \displaystyle \sum_{i = 1}^{n} T_i$$
+$$ T_{sum} = \displaystyle \sum_{i = 1}^{n} T_i$$
 
 
 - RSS:
   - 각각의 공차의 제곱의 합의 제곱근을 구하여 누적 공차를 구함.
 
-  $$ T_{sum} = \sqrt{ \displaystyle \sum_{i = 1}^{n} T_i^2 }$$
+$$ T_{sum} = \sqrt{ \displaystyle \sum_{i = 1}^{n} T_i^2 }$$
 
 - 혼합 방법:
   - 근무했던 직장의 자체 규격으로, 부품 수가 2개인 경우 Worst Case와 동일하고 부품 수가 많을 수록 RSS에 가까워짐
 
-  $$ T_{sum} = \frac{(n-2)\sqrt{ \displaystyle\sum_{i=1}^{n} T_i^2 } + 2\displaystyle\sum_{i=1}^{n} T_i}{n}$$
+$$ T_{sum} = \frac{(n-2) \sqrt{ \displaystyle \sum_{i=1}^{n} T_i^2 } + 2\displaystyle \sum_{i=1}^{n} T_i}{n}$$
 
 <br />
 
